@@ -1,0 +1,55 @@
+Ribat - built-in adhan recordings: sources and processing
+Updated: 2026-10-13 (v1.6.0+). 14 recordings supplied by the app owner, who states they are openly licensed.
+
+Processing (all files):
+  Android res/raw/adhan_<id>.mp3: silence trimmed (-45 dB), two-pass EBU R128 loudnorm I=-16 LUFS TP=-1.5,
+    mono; 16/22 kHz sources -> 22.05 kHz 32 kbps, 44.1 kHz sources -> 32 kHz 56 kbps, metadata stripped. Full adhan.
+  assets/sounds/adhan_<id>.mp3: first 30 s of the above with 2 s fade (in-app preview only).
+  assets/sounds/ios/ and ios/Runner/Sounds/adhan_<id>.caf: first 29 s, 1.5 s fade, mono 22.05 kHz IMA4 (iOS limit 30 s).
+
+id | original title (ID3) | source | original quality
+madinah | أذان المسجد النبوي | meypod/al-azan (GitHub, AGPL-3.0 repo) | 44.1k stereo 64k
+madinah_fajr | أذان الفجر - المدينة المنورة | user-supplied (tag: «الأذان بعدة أصوات ندية»، رفع مُسلم التونسي، 2006/2012) | 16k mono ~18k
+makkah | أذان الحرم المكي - 1 | user-supplied (same collection) | 16k mono
+makkah2 | أذان الحرم المكي - 2 | user-supplied (same collection) | 16k mono
+aqsa | أذان المسجد الأقصى / ناجي قزاز | user-supplied (ID3v1 cp1256 tag) | 16k mono 16k
+abdulbasit | أذان القاهرة - عبدالباسط عبدالصمد | user-supplied (collection) | 16k mono
+minshawi | أذان بصوت الشيخ المنشاوي | user-supplied (collection; same recording as the earlier abodehq file) | 16k mono
+husary | أذان القاهرة - محمود خليل الحصري | user-supplied (collection) | 16k mono
+refaat | أذان القاهرة - محمد رفعت | user-supplied (collection) | 16k mono
+banna | أذان، القاهرة - Mahmoud Ali Albanna (v1.8: replaced by a longer, complete recording) | user-supplied (islamweb tags) | 16k mono
+mustafa | الأذان - الشيخ مصطفى إسماعيل | user-supplied (collection, ©2008 tag) | 22k stereo 35k
+kurdi | أذان - Ahmed Al Kourdi | user-supplied (assabile.com / islamweb.net tags) | 44.1k stereo 128k
+ani | أذان - أحمد العاني | user-supplied (assabile.com / islamweb.net tags) | 44.1k stereo 128k
+voice1 | «الأذان1» (muezzin not named in tags) | user-supplied (collection) | 16k mono
+voice2 | «الأذان2» (muezzin not named in tags) | user-supplied (collection) | 16k mono
+
+madinah_fajr is the default for Fajr.
+
+Added in 1.8.0 (user-supplied, tags as found):
+qatami | أذان، الرياض - Nasser Al Qatami | user-supplied | 44.1k stereo 128k
+daghriri | أذان - Hamad Al Daghriri | user-supplied | 44.1k stereo 128k
+jazairi | أذان، الجزائر - Rabih Ibn Darah Al Jazairi | user-supplied | 44.1k stereo 192k
+qunaywa | أذان - الأمين محمد قنيوه | user-supplied | 44.1k stereo 128k
+hammoud | أذان، مسجد عمر بن الخطاب، كولومبيا - محمد حمود | user-supplied | 44.1k stereo 128k
+kuwait_fajr | أذان الفجر، الكويت | user-supplied (islamweb.net tag) | 16k mono (contains «الصلاة خير من النوم»)
+turkey | أذان، تركيا (47 s) | user-supplied (islamweb.net tag) | 16k mono
+voice3 | أذان (muezzin not named in tags) | user-supplied (islamweb.net tag) | 44.1k mono 128k
+voice4 | (no tags) | user-supplied | 22.05k stereo 64k
+salawat (ribat_salawat.wav) | «إن الله وملائكته يصلون على النبي» - الشيخ محمود خليل الحصري, 26 s | user-supplied | default salawat reminder tone
+
+Duplicates detected by envelope correlation (minshawi, kurdi, abdulbasit, refaat, banna) were not higher quality than the installed copies, so they were kept (except banna, replaced by the longer take).
+Fajr adhans with «الصلاة خير من النوم»: madinah_fajr, kuwait_fajr.
+
+Added in 2.0.0 (user-supplied 2026-10-19, tags as found). Tones: silence trimmed, EBU R128 -16 LUFS, mono 22.05 kHz WAV
+(res/raw/ribat_<id>.wav and assets/sounds/ribat_<id>.wav); adhan processed as above (32 kHz 56 kbps).
+jazi | أذان يثلج الصدر - أذان مقام كرد - بصوت المؤذن محمد جازي عبدالله | user-supplied | 44.1k stereo 193k, 4:20
+near0..near4 (ribat_near<k>.wav) | «اقتربت صلاة الفجر/الظهر/العصر/المغرب/العشاء» | user-supplied | ~1.9 s each; default pre-adhan tone per prayer ('near')
+iqama (ribat_iqama.wav) | حي على الصلاة - محمد جازي عبدالله (مئذنة مسجد إيدون، إربد) | user-supplied | 16 s; iqama reminder tone under 'near'
+tasbih (ribat_tasbih.wav) | سبحان الله، والحمد لله، ولا إله إلا الله، والله أكبر | user-supplied | 10 s; default for the new "absolute adhkar" channel (6)
+ibrahimi (ribat_ibrahimi.wav) | الصلاة الإبراهيمية - الشيخ بدر النفيس | user-supplied | 29 s; alternates randomly with 'salawat' ('salawat_mix')
+
+Changes in 2.0.1 (owner's request): removed madinah, makkah2, hammoud, turkey, voice1, voice2, voice4 and tones tone1–tone5.
+Renamed makkah -> «أذان المسجد الحرام», voice3 -> «أذان بصوت ندي», aqsa -> «أذان المسجد الأقصى», jazi -> «أذان المؤذن محمد جازي».
+Default adhan: jazi (Fajr: madinah_fajr). Default reminder voices: pre-adhan 'near'+iqama, sunan 'takbir', morning/evening 'tasbih',
+salawat 'salawat_mix', end of prayer time 'iqama', absolute adhkar 'tasbih'.

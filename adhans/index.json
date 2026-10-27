@@ -1,0 +1,74 @@
+{
+ "abdulbasit": {
+  "bytes": 797544,
+  "sha256": "694efe0db7e0063923de4a5eb85d105b76f739617d628b3667584e3f04df9ede"
+ },
+ "ani": {
+  "bytes": 1847916,
+  "sha256": "90089aa5751ea3ab9aed355dc8dee3e9b8680a7f9dca613ddb9a1400a51981bb"
+ },
+ "aqsa": {
+  "bytes": 732342,
+  "sha256": "fbe2928553fd6030b25597fbebc1cd841c841984efb7beb26ffa25715c22796b"
+ },
+ "banna": {
+  "bytes": 657736,
+  "sha256": "09e6ce5c0ba30d0d784429e128d2f3b4049deb2f271023df3dae21b7d5a211b8"
+ },
+ "daghriri": {
+  "bytes": 1332828,
+  "sha256": "64f003c38e6bfeca04d3537f73f6d296a9f7b00a2cf8e9d8f64ea1c3be2c3474"
+ },
+ "husary": {
+  "bytes": 504345,
+  "sha256": "09aa58a74f7e63f1f99ae72191d3294d726a6411b71c7e4182cdf3682b3f809d"
+ },
+ "jazairi": {
+  "bytes": 1199772,
+  "sha256": "d2145805b4b8d846d27a910e2fea9814aa542aab1fbb6f239d11c8c4c4d6b7fd"
+ },
+ "jazi": {
+  "bytes": 2257984,
+  "sha256": "a7e991b111af386ac7ba923456f08ed0fac37ccc03adc5ea024f8a5a351c6307"
+ },
+ "kurdi": {
+  "bytes": 1373652,
+  "sha256": "5725c6657a9fe8673601aca3f7604b402e331865bba3c8a66e407b50b9b83138"
+ },
+ "kuwait_fajr": {
+  "bytes": 828055,
+  "sha256": "1ef35a3c1c86d3303516fa3cff3de5bf88fedd9e7cea0bfe65670361800fe4de"
+ },
+ "madinah_fajr": {
+  "bytes": 1109550,
+  "sha256": "538498412cb1af04224d5c520501d030922aafbf9337128f8c8b6007c21838b8"
+ },
+ "makkah": {
+  "bytes": 804335,
+  "sha256": "2f3d12c3523bb3136abd65c0bb5265bd39a88b226ce7af557e9c65f5cce54fca"
+ },
+ "minshawi": {
+  "bytes": 977893,
+  "sha256": "1305a59f805e2ff504df0d5163105bab95fd6153938ae72fe7b8a60eefb7fa37"
+ },
+ "mustafa": {
+  "bytes": 735895,
+  "sha256": "b7d4fca61d3dc14bf94e6fa0a506d53270188edcdc6c1362d9fdec13b765adf8"
+ },
+ "qatami": {
+  "bytes": 925344,
+  "sha256": "e3a0a21e00d6c6d7ae3e2bf54eafcd95e2837ad0463d485737118b6133429bfd"
+ },
+ "qunaywa": {
+  "bytes": 1387008,
+  "sha256": "ee8779440c9327930c14fd6c1c70592f7cfbdd071f926762356b3cd121a87ae8"
+ },
+ "refaat": {
+  "bytes": 809246,
+  "sha256": "0648dc3a7f0edd6dc04332db1572c88e06e0ff9895a35b364ed9545c3533afe8"
+ },
+ "voice3": {
+  "bytes": 1386252,
+  "sha256": "3c6ebc88304ab5073259443e8696a719aafd4b8b6843a1c8b836fbe4f6e87ca2"
+ }
+}
