@@ -1,0 +1,18 @@
+{
+ "bishri_masa": {
+  "bytes": 3769965,
+  "sha256": "305261b407e4d74bb80f7692d678120bef0d7d9b3654a257aaa3bd041971f558"
+ },
+ "bishri_sabah": {
+  "bytes": 4012137,
+  "sha256": "c9314e6bcabe9f9e0af7718f0a59460fbb54e01732f5edcc2eca4ea62e556368"
+ },
+ "hisham_masa": {
+  "bytes": 11659329,
+  "sha256": "334c4e4080ed8524e5f900d90598284e73f696dce91d1ceb8cffe501862fea34"
+ },
+ "hisham_sabah": {
+  "bytes": 11232945,
+  "sha256": "1ff898c42b81dd0a817a00be0584a1f9f126f08519d6e399e2fec179144c811b"
+ }
+}
