@@ -53,3 +53,6 @@ Changes in 2.0.1 (owner's request): removed madinah, makkah2, hammoud, turkey, v
 Renamed makkah -> «أذان المسجد الحرام», voice3 -> «أذان بصوت ندي», aqsa -> «أذان المسجد الأقصى», jazi -> «أذان المؤذن محمد جازي».
 Default adhan: jazi (Fajr: madinah_fajr). Default reminder voices: pre-adhan 'near'+iqama, sunan 'takbir', morning/evening 'tasbih',
 salawat 'salawat_mix', end of prayer time 'iqama', absolute adhkar 'tasbih'.
+
+Added in 2.4.0 (owner's request: suggested muezzins become downloadable):
+alafasy | Athan Mishary Alafasi | abodehq/Athan-MP3 (GitHub, Sounds/) | 44.1k stereo 64k, 4:00; processed as above (32 kHz 56 kbps)

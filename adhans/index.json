@@ -70,5 +70,9 @@
  "voice3": {
   "bytes": 1386252,
   "sha256": "3c6ebc88304ab5073259443e8696a719aafd4b8b6843a1c8b836fbe4f6e87ca2"
+ },
+ "alafasy": {
+  "bytes": 1679373,
+  "sha256": "5d4857a56c4dd6994195316ec84464f280e68bc15d54100ee47c223d468ade09"
  }
 }
