@@ -55,4 +55,3 @@ Default adhan: jazi (Fajr: madinah_fajr). Default reminder voices: pre-adhan 'ne
 salawat 'salawat_mix', end of prayer time 'iqama', absolute adhkar 'tasbih'.
 
 Added in 2.4.0 (owner's request: suggested muezzins become downloadable):
-alafasy | Athan Mishary Alafasi | abodehq/Athan-MP3 (GitHub, Sounds/) | 44.1k stereo 64k, 4:00; processed as above (32 kHz 56 kbps)

@@ -14,5 +14,13 @@
  "hisham_sabah": {
   "bytes": 11232945,
   "sha256": "1ff898c42b81dd0a817a00be0584a1f9f126f08519d6e399e2fec179144c811b"
+ },
+ "idris_nawm": {
+  "bytes": 3513429,
+  "sha256": "4be4e48fe6539c36ba3e5627442716f876686373483317ba420aebcf3aa426ba"
+ },
+ "maasabi_nawm": {
+  "bytes": 6819165,
+  "sha256": "83084878cdccc5ee7a44b348cab5ddb93af7267582223a1415fcb5d6df47c3ea"
  }
 }
